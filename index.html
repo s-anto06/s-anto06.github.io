@@ -40,7 +40,7 @@ section>.wrap>p.intro{color:var(--suave);max-width:40rem;margin:0 0 2rem}
 #desarrollo .proy{border-left-color:var(--codigo)}
 .proy h3{margin:0 0 .5rem;font-size:1.25rem}
 .proy p{margin:.25rem 0 .75rem;max-width:42rem}
-.pendiente{border-left-style:dashed;background:transparent;border:2px dashed var(--linea);border-left:8px dashed var(--datos)}
+.proy img{display:block;width:100%;max-width:42rem;height:auto;margin:1rem 0;border:1px solid var(--linea)}
 .barras{margin:1rem 0 .25rem;max-width:30rem}
 .barras div{display:flex;align-items:center;gap:.75rem;margin:.4rem 0;font-size:.95rem}
 .barras b{display:block;height:1.1rem;background:var(--linea)}
@@ -56,6 +56,7 @@ footer{padding:2.5rem 0 3rem;border-top:1px solid var(--linea);color:var(--suave
     <h1>Sergio A. González</h1>
     <p>Analista de BI y datos, e ingeniero en sistemas. Convierto datos en dashboards y automatizo reportes con Power BI, DAX y SQL. También desarrollo software.</p>
     <nav class="links" aria-label="Contacto">
+      <a href="https://github.com/s-anto06">GitHub</a>
       <a href="https://www.linkedin.com/in/sergioagonzalez06">LinkedIn</a>
       <a href="mailto:srg3225@gmail.com">Escribirme</a>
     </nav>
@@ -75,10 +76,12 @@ footer{padding:2.5rem 0 3rem;border-top:1px solid var(--linea);color:var(--suave
       <h2>Análisis de datos</h2>
       <p class="intro">Trabajo con Power BI (modelado y DAX), SQL Server y Excel avanzado para que los indicadores se midan igual en todos los reportes.</p>
 
-      <article class="proy pendiente">
-        <h3>Dashboard de producción en Power BI</h3>
-        <p>En preparación: un dashboard con datos públicos o ficticios, con su modelo de datos, medidas DAX y hallazgos documentados.</p>
-        <p class="herr">Power BI · DAX · Power Query</p>
+      <article class="proy">
+        <h3>Dengue en Veracruz (2020–2026)</h3>
+        <p>Dashboard de Power BI con datos abiertos de la Secretaría de Salud para ubicar en qué municipios y en qué momentos se concentra el mayor riesgo de dengue. Más de 78 mil casos analizados, cargados y limpiados en MySQL, con modelo en estrella y medidas DAX.</p>
+        <a href="https://github.com/s-anto06/dashboard-dengue-veracruz"><img src="https://raw.githubusercontent.com/s-anto06/dashboard-dengue-veracruz/main/capturas/00_portada.png" alt="Portada del dashboard Dengue en Veracruz: 78,649 casos, 212 municipios, 206 defunciones, de 2020 a 2026" loading="lazy"></a>
+        <p><a href="https://github.com/s-anto06/dashboard-dengue-veracruz">Ver repositorio en GitHub</a></p>
+        <p class="herr">Power BI · DAX · Power Query · MySQL · SQL</p>
       </article>
 
       <article class="proy">
